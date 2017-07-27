@@ -3,7 +3,7 @@ from PIL import Image
 import xml.etree.ElementTree as etree
 import time 
 
-tree = etree.parse('C:/learning/VkGeotag/src/photos.search.xml')
+tree = etree.parse('../photos.search.xml')
 root = tree.getroot()
 
 owner_id = tree.findall('owner_id')
